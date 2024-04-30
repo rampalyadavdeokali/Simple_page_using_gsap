@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background: #000;
+    background-image: url("https://images.unsplash.com/photo-1608788985372-cc240a27e269?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2x1ZCUyMHNreXxlbnwwfHwwfHx8MA%3D%3D");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+#nav{
+    padding: 40px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+#nav h2{
+    font-size: 35px;
+}
+
+
+#nav i{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+
+#full{
+    height: 100%;
+    width: -40%; 
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.797);
+    backdrop-filter: blue(20px);
+    padding: 80px 30px;
+}
+
+#full h4{
+    font-size: 45px;
+ 
+    font-weight: 800;
+
+
+}
+
+ 
